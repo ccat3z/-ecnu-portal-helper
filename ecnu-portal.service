@@ -1,0 +1,7 @@
+[Unit]
+Description=ECNU Portal
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ecnu-portal login
+
